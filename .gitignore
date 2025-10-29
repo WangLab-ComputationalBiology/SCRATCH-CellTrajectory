@@ -1,0 +1,24 @@
+# OS / editor
+.DS_Store
+.Rhistory
+
+# Nextflow runtime / caches / logs
+.nextflow*
+work/
+results/
+figures/
+report/
+timeline.html
+trace.txt
+
+# Large artifacts
+*.RDS
+*.rds
+*.RData*
+*.h5
+*.bam
+*.bai
+*.fastq.gz
+*.tar.gz
+*.zip
+*.sif
